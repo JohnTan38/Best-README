@@ -170,12 +170,14 @@ Data Preprocessing and transformation - TransactionEncoder class from the MLXten
    # converting the transactions array to a datafrmae
    df = pd.DataFrame(transactions, columns=encoder.columns_)
    ```
+<br>
+### Market Basket Analysis
 
 Market Basket Analysis is a data mining tool used by retailers to increase sales by better understanding customer purchasing patterns. 
 Purchase history and items bought together are analyzed to reveal product groupings, as well as products that are likely to e purchased together.
 
 ### Frequently bought together
-> ![Matcha and Hojicha](https://github.com/JohnTan38/Python-Data-Analysis-/blob/main/images/Tenure%20and%20churn.PNG?raw=true)
+> ![Matcha and Hojicha](https://github.com/JohnTan38/Best-README/blob/master/images/MatchaHojichaLatte_asso.png)
 <br>
 > Matcha latte and Hojicha latte pair with high level of confidence and lift. Lift > 1 indicates that higher sales of antecedents lead to higher sales of consequents<br>
 
