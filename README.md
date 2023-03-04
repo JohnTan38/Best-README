@@ -44,7 +44,7 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+   
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
@@ -126,27 +126,27 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pip
   ```sh
-  npm install npm@latest -g
+  pip install -r requirements
   ```
 
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Run Jupyter notebook on Sagemaker at [https://bcg-rise-bda.awsapps.com/start#/](https://bcg-rise-bda.awsapps.com/start#/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/JohnTan38/Best-README.git
    ```
-3. Install NPM packages
+3. Install packages
    ```sh
-   npm install
+   pip install mlxtend
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Import libraries
+   ```python
+   from mlxtend.frequent_patterns import apriori, association_rules
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -156,7 +156,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
