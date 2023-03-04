@@ -34,7 +34,7 @@
     <img src="images/logo.png" alt="Logo" width="200" height="160">
   </a>
 
-  <h3 align="center">Association and RFM Analysis</h3>
+  <h3 align="center">Market Basket Analysis, Apriori Algorithm and Asssociation</h3>
 
   <p align="center">
     A Market Basket Analysis project
@@ -170,6 +170,15 @@ Data Preprocessing and transformation - TransactionEncoder class from the MLXten
    # converting the transactions array to a datafrmae
    df = pd.DataFrame(transactions, columns=encoder.columns_)
    ```
+
+Market Basket Analysis is a data mining tool used by retailers to increase sales by better understanding customer purchasing patterns. 
+Purchase history and items bought together are analyzed to reveal product groupings, as well as products that are likely to e purchased together.
+
+### Frequently bought together
+> ![Matcha and Hojicha](https://github.com/JohnTan38/Python-Data-Analysis-/blob/main/images/Tenure%20and%20churn.PNG?raw=true)
+<br>
+> Matcha latte and Hojicha latte pair with high level of confidence and lift. Lift > 1 indicates that higher sales of antecedents lead to higher sales of consequents<br>
+
 Link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
