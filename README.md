@@ -83,16 +83,48 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+ This analysis is a practical implementation of the Apriori Algorithm via Python.<br>
+    
+ ## Primer on Apriori Algorithm & Association Rules<br>
+ 
+Apriori algorithms is a data mining algorithm used for mining **frequent itemsets** and **relevant association rules**. It is devised to operate on a database that contain transactions -like, items bought by a customer in a store.<br>
+    
+An itemset can be considered ***frequent*** if it meets a user-specified support threshold. For example, if the support threshold is set to 0.5(50%), a frequent itemset is a set of items that are bought/purchased together in atleast 50% of all transactions.<br>
+    
+***Association rules*** are a set of rules derived from a database, that can help determining relationship among variables in a large transactional database.<br>
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+For example, let I ={i(1),i(2)...,i(m)} be a set of m attributes called items, and T={t(1),t(2),...,t(n)} be the set of transactions. Every transaction t(i) in T has a unique transaction ID, and it contains a subset of itemsets in I.<br>
+    
+Association rules are usually written as **i(j) -> i(k)**. This means that there is a strong relationship between the purchase of item i(j) and item i(k). Both these items were purchased together in the same transaction.<br>
+    
+In the above example, i(j) is the **antecedent** and i(k) is the **consequent**.<br>
+    
+Please note that both antecedents and consequents can have multiple items. For example, {Diaper,Gum} -> {Beer, Chips} is also valid.
+ 
+Since multiplie rules are possible even from a very small database, i-order to select the most relevant ones, we use constraints on various measures of interest. The most important measures are discussed below. They are:<br>
+    
+* 1. Support : * The support of an itemset X, *supp(X)* is the proportion of transaction in the database in which the item X appears. It signifies the popularity of an itemset.<br>
+    
+    supp(X) = (Number of transactions in which X appears)/(Total number of transactions)
+    
+We can identify itemsets that have support values beyond this threshold as significant itemsets.<br>
+    
+* 2. Confidence :* Confidence of a rule signifies the likelihood of item Y being purchased when item X is purchased.<br>
+    
+Thus, 
+    conf(X -> Y) = supp(X *U* Y) / supp( X )
+    
+If conf (X -> Y) is 75%, it implies that, for 75% of transactions containing X & Y, this rule is correct. It is more like a conditional probability, P(Y|X), that the probability of finding itemset Y in transactions fiven that the transaction already contains itemset X.<br>
 
-Use the `BLANK_README.md` to get started.
+* 3. Lift :* Lift explains the the likelihood of the itemset Y being purchased when itemset X is already purchased, while taking into account the popularity of Y.r>
+    
+Thus, 
+    lift (X -> Y) = supp (X *U* Y)/( supp(X)  supp (Y) )
+    
+If the value of lift is greater than 1, it means that the itemset Y is likely to be bought with itemset X, while a value less than 1 implies that the itemset Y is unlikely to be bought if the itemset X is bought.<br>
+    
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
