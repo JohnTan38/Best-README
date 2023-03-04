@@ -8,8 +8,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -24,7 +22,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -47,7 +44,6 @@
     
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -75,8 +71,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -125,10 +119,7 @@ Thus,
 If the value of lift is greater than 1, it means that the itemset Y is likely to be bought with itemset X, while a value less than 1 implies that the itemset Y is unlikely to be bought if the itemset X is bought.<br>
     
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -138,20 +129,16 @@ Major frameworks/libraries used to bootstrap project.
 * [![Githubl][Github.com]][GitHub-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+Instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * pip
   ```sh
   pip install -r requirements
@@ -159,7 +146,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Installing and setting up your app.
 
 1. Run Jupyter notebook on Sagemaker at [https://bcg-rise-bda.awsapps.com/start#/](https://bcg-rise-bda.awsapps.com/start#/)
 2. Clone the repo
@@ -179,8 +166,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- USAGE EXAMPLES -->
+<!-- ANALYSIS EXAMPLES -->
 ## Association Rules & RFM Analysis (Recency, Frequency, Monetary)
 
 Data Preprocessing and transformation - TransactionEncoder class from the MLXtend library
@@ -196,7 +182,7 @@ Data Preprocessing and transformation - TransactionEncoder class from the MLXten
    # converting the transactions array to a datafrmae
    df = pd.DataFrame(transactions, columns=encoder.columns_)
    ```
-<br>
+
 ### Market Basket Analysis
 
 Market Basket Analysis is a data mining tool used by retailers to increase sales by better understanding customer purchasing patterns. 
@@ -238,14 +224,19 @@ For example, top customers who buy frequently and with high ticket values in RFM
 ### Association Rule +  RFM - Opportunities for targetedcross-selling
 > ![Association and RFM](https://github.com/JohnTan38/Best-README/blob/master/images/Top_RFM_segment.png)
 
-> Customers' RFM segments and closely associated products provide opportuniites for targeted cross selling . Customers of RFM segment '444' who bought 'Awakening Matcha Whisk Set' could have 'Matcha Starter Kit' recommended.<br>
+> Customers' RFM segments and closely associated products provide opportuniites for targeted cross selling . Customers of RFM segment '444' who bought 'Awakening Matcha Whisk Set' could have 'Matcha Starter Kit' recommended.<br><br>
 > 
-Link to more resources.
+
+### Pros and Cons of Apriori Algorithm
+    Easy to understand
+    Suitable for large itemsets
+    
+    Computationally expensie if there are many association rules
+    Calculating Support is expensive as algorithm goes through entire dataset
 
 _For more examples, please refer to the [Documentation](httnps://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
@@ -253,22 +244,30 @@ _For more examples, please refer to the [Documentation](httnps://example.com)_
 
 - [x] Add Changelog
 - [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Fine tune threshold values for Support and Lift
 - [ ] Multi-language Support
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+# Contributors ✨
+# Contributing
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/vieming8"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buymeacoffeeJohnTan" /></a></p><br><br>
+
+
+<br>
+<a href="https://www.buymeacoffee.com/vieming8" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="50" width="210"></a>
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -281,8 +280,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -291,23 +288,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- CONTACT -->
 ## Contact
 
 * [![Gmail][Gmail]][Svelte-url]  vieming@gmail.com
 
-
 Project Link: [https://github.com/JohnTan38/Best-README](https://github.com/JohnTan38/Best-README)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
@@ -317,7 +308,6 @@ Use this space to list resources you find helpful and would like to give credit 
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
