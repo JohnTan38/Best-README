@@ -36,7 +36,7 @@
   <p align="center">
     A Market Basket Analysis project
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/JohnTan38/Best-README/blob/master/images/CraftTeaFox.png"><strong>Explore the docs »</strong></a>
     <br />
     <br />
    
@@ -75,7 +75,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+> ![Product Screen Shot](https://github.com/JohnTan38/Best-README/blob/master/images/CraftTeaFox.png)
+
 
 
  This analysis is a practical implementation of the Apriori Algorithm via Python.<br>
@@ -221,7 +222,7 @@ For example, top customers who buy frequently and with high ticket values in RFM
 'Ceremonial Uji Matcha Powder'.<br>
 > ![RFM segment](https://github.com/JohnTan38/Best-README/blob/master/images/RFM_quartile.png)<br>
 
-### Association Rule +  RFM - Opportunities for targetedcross-selling
+### Association Rule +  RFM - Opportunities for targeted cross-selling
 > ![Association and RFM](https://github.com/JohnTan38/Best-README/blob/master/images/Top_RFM_segment.png)
 
 > Customers' RFM segments and closely associated products provide opportuniites for targeted cross selling . Customers of RFM segment '444' who bought 'Awakening Matcha Whisk Set' could have 'Matcha Starter Kit' recommended.<br><br>
