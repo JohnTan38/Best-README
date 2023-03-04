@@ -181,6 +181,11 @@ Purchase history and items bought together are analyzed to reveal product groupi
 <br>
 > Matcha latte and Hojicha latte pair with high level of confidence and lift. Lift > 1 indicates that higher sales of antecedents lead to higher sales of consequents<br>
 
+### Frequently bought together bundle
+> ![Chocolate Milk Almond and Matcha Vanilla Latte](https://github.com/JohnTan38/Best-README/blob/master/images/BundleSnacks_asso.png)
+<br>
+> Chocolate Almond Milk and Matcha Vanilla Latte bundle with high level of confidence and lift.<br>
+
 Link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
