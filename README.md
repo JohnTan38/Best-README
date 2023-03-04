@@ -203,7 +203,11 @@ For example, top customers who buy frequently and with high ticket values in RFM
 'Ceremonial Uji Matcha Powder'.<br>
 > ![RFM segment](https://github.com/JohnTan38/Best-README/blob/master/images/RFM_quartile.png)<br>
 
+### Association Rule +  RFM - Opportunities for targetedcross-selling
+> ![Association and RFM](https://github.com/JohnTan38/Best-README/blob/master/images/Top_RFM_segment.png)
 
+> Customers' RFM segments and closely associated products provide opportuniites for targeted cross selling . Customers of RFM segment '444' who bought 'Awakening Matcha Whisk Set' could have 'Matcha Starter Kit' recommended.<br>
+> 
 Link to more resources.
 
 _For more examples, please refer to the [Documentation](httnps://example.com)_
