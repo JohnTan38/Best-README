@@ -174,7 +174,12 @@ Data Preprocessing and transformation - TransactionEncoder class from the MLXten
 ### Market Basket Analysis
 
 Market Basket Analysis is a data mining tool used by retailers to increase sales by better understanding customer purchasing patterns. 
-Purchase history and items bought together are analyzed to reveal product groupings, as well as products that are likely to e purchased together.
+Purchase history and items bought together are analyzed to reveal product groupings, as well as products that are likely to e purchased together.<br>
+
+### Association Analysis
+
+Association Analysis looks for relationships in large datasets. These relationships can take 2 forms: frequent item sets or association rules.
+Frequent item sets are a collection of items that frequently occur together. Association rules suggest that a strong relationship exists between two items
 
 ### Frequently bought together
 > ![Matcha and Hojicha](https://github.com/JohnTan38/Best-README/blob/master/images/MatchaHojichaLatte_asso.png)
@@ -186,9 +191,21 @@ Purchase history and items bought together are analyzed to reveal product groupi
 <br>
 > Chocolate Almond Milk and Matcha Vanilla Latte bundle with high level of confidence and lift.<br>
 
+
+## RFM Analysis
+
+Customers recency, frequency & monetary (transaction values) are analyzed and K Means clustering used to group customers into distinct segments<br>.
+> ![Customer segmentation](https://github.com/JohnTan38/Best-README/blob/master/images/TopCustomers.png)<br>
+
+Customer segmentation fine-tuned with detailed analysis and RFM segments identified. 
+For example, top customers who buy frequently and with high ticket values in RFM segment '144' could be offered bundle of 'Awakening Matcha Whisk set' with 
+'Ceremonial Uji Matcha Powder'.<br>
+> ![RFM segment](https://github.com/JohnTan38/Best-README/blob/master/images/RFM_quartile.png)<br>
+
+
 Link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](httnps://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,7 +258,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+* [![Gmail][Gmail]][Svelte-url]  vieming@gmail.com
+
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
@@ -284,6 +302,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [product-screenshot]: images/screenshot.png
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://python.org/
+
+[Gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[Gmail-url]: https://python.org/
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
