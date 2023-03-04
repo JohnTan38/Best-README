@@ -104,12 +104,12 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
+* [![Python][Python]][Python-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
+* [![Githubl][Github.com]][GitHub-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
@@ -147,6 +147,7 @@ _Below is an example of how you can instruct your audience on installing and set
 4. Import libraries
    ```python
    from mlxtend.frequent_patterns import apriori, association_rules
+   from mlxtend.preprocessing import TransactionEncoder
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,9 +155,22 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Association Rules & RFM Analysis (Recency, Frequency, Monetary)
 
-Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Data Preprocessing and transformation - TransactionEncoder class from the MLXtend library
+1. To find unique items - flatten the dataframe and convert into a set. The transformation removes any duplicate items
+2. Fit the object of the class on the list and convert to dataframe.
+3. for every item in a transaction, append 1 if purchased and 0 otherwise. 
+
+ ```python
+   # fitting the list and converting the transactions to true and false
+   encoder = TransactionEncoder()
+   transactions = encoder.fit(matcha_list).transform(matcha_list)
+   
+   # converting the transactions array to a datafrmae
+   df = pd.DataFrame(transactions, columns=encoder.columns_)
+   ```
+Link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -252,8 +266,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://python.org/
+
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
@@ -262,8 +277,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [Angular-url]: https://angular.io/
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
+[GitHub.com]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[GitHub-url]: https://github.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
