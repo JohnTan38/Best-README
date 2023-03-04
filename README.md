@@ -227,6 +227,15 @@ For example, top customers who buy frequently and with high ticket values in RFM
 > Customers' RFM segments and closely associated products provide opportuniites for targeted cross selling . Customers of RFM segment '444' who bought 'Awakening Matcha Whisk Set' could have 'Matcha Starter Kit' recommended.<br><br>
 > 
 
+### Sales Trends - 
+> ![Matcha and Hojicha sales](https://github.com/JohnTan38/Best-README/blob/master/images/MatchaHojicha_Sales.png)
+> Consistent all year sales except for last quarter of 2021.<br>
+
+> ![Matcha Starter kit sales](https://github.com/JohnTan38/Best-README/blob/master/images/MatchaStarterKit_Sales.png)
+> Matcha Starter Kit enjoys high support and lift. Sales campaign to smooth out sales trend during 2nd and 3rd quarters.
+> Gross profit would be increased with a successful campaign. 
+
+
 ### Pros and Cons of Apriori Algorithm
     Easy to understand
     Suitable for large itemsets
