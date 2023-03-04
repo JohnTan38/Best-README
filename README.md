@@ -111,7 +111,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Githubl][Github.com]][GitHub-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,6 +190,12 @@ Frequent item sets are a collection of items that frequently occur together. Ass
 > ![Chocolate Milk Almond and Matcha Vanilla Latte](https://github.com/JohnTan38/Best-README/blob/master/images/BundleSnacks_asso.png)
 <br>
 > Chocolate Almond Milk and Matcha Vanilla Latte bundle with high level of confidence and lift.<br>
+
+### Association Rule - Min Support 3% and Lift > 2
+> ![Association rule Support and Lift](https://github.com/JohnTan38/Best-README/blob/master/images/AssoRule_lift2.png)
+
+> Closely associated products with minimum support of 3% and lift greater than 2. Customers who add item to cart could have closely associated items
+> suggested to them before checkout<br>
 
 
 ## RFM Analysis
