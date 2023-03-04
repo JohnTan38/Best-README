@@ -178,12 +178,12 @@ Frequent item sets are a collection of items that frequently occur together. Ass
 ### Frequently bought together
 > ![Matcha and Hojicha](https://github.com/JohnTan38/Best-README/blob/master/images/MatchaHojichaLatte_asso.png)
 <br>
-> Matcha latte and Hojicha latte pair with high level of confidence and lift. Lift > 1 indicates that higher sales of antecedents lead to higher sales of consequents<br>
+> Matcha latte and Hojicha latte pair with high level of support and lift. Lift > 1 indicates that higher sales of antecedents lead to higher sales of consequents<br>
 
-### Frequently bought together bundle
-> ![Chocolate Milk Almond and Matcha Vanilla Latte](https://github.com/JohnTan38/Best-README/blob/master/images/BundleSnacks_asso.png)
+### Association Rule - Awakening Matcha Whisk set & Matcha Starter kit
+> ![Awakening Matcha and Starter](https://github.com/JohnTan38/Best-README/blob/master/images/AwakeningMatcha.png)
 <br>
-> Chocolate Almond Milk and Matcha Vanilla Latte bundle with high level of confidence and lift.<br>
+> Awakening Matcha Whisk set and Matcha Starter kit bundle with high level of support and lift.<br>
 
 ### Association Rule - Min Support 3% and Lift > 2
 > ![Association rule Support and Lift](https://github.com/JohnTan38/Best-README/blob/master/images/AssoRule_lift2.png)
