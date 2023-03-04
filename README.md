@@ -42,11 +42,9 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
    
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+   
+    
   </p>
 </div>
 
@@ -102,13 +100,9 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Major frameworks/libraries used to bootstrap project.
 
 * [![Python][Python]][Python-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
 * [![Githubl][Github.com]][GitHub-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -195,7 +189,8 @@ Frequent item sets are a collection of items that frequently occur together. Ass
 > ![Association rule Support and Lift](https://github.com/JohnTan38/Best-README/blob/master/images/AssoRule_lift2.png)
 
 > Closely associated products with minimum support of 3% and lift greater than 2. Customers who add item to cart could have closely associated items
-> suggested to them before checkout<br>
+> suggested to them before checkout.
+> Different permutations and threholds of Support and Lift return differennt association rules.<br>
 
 
 ## RFM Analysis
@@ -267,7 +262,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 * [![Gmail][Gmail]][Svelte-url]  vieming@gmail.com
 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/JohnTan38/Best-README](https://github.com/JohnTan38/Best-README)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -280,8 +275,6 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
