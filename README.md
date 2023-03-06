@@ -36,7 +36,7 @@
   <p align="center">
     A Market Basket Analysis project
     <br />
-    <a href="https://github.com/JohnTan38/Best-README/blob/master/images/CraftTeaFox.png"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/JohnTan38/Best-README/blob/master/images/CraftTeaFox.png"></a>
     <br />
     <br />
    
