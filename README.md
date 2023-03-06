@@ -250,7 +250,7 @@ For example, top customers who buy frequently and with high ticket values in RFM
     Computationally expensie if there are many association rules
     Calculating Support is expensive as algorithm goes through entire dataset
 
-_For more examples, please refer to the [Documentation](httnps://example.com)_
+_For more examples, please refer to the [Documentation][Docs-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -361,3 +361,4 @@ Project Link: [https://github.com/JohnTan38/Best-README](https://github.com/John
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[Docs-url]: https://github.com/JohnTan38/Best-README/blob/master/assets/Apriori_Algorithm.pdf
