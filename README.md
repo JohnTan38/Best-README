@@ -184,12 +184,12 @@ Data Preprocessing and transformation - TransactionEncoder class from the MLXten
    df = pd.DataFrame(transactions, columns=encoder.columns_)
    ```
 
-### Market Basket Analysis
+## Market Basket Analysis
 
 Market Basket Analysis is a data mining tool used by retailers to increase sales by better understanding customer purchasing patterns. 
 Purchase history and items bought together are analyzed to reveal product groupings, as well as products that are likely to e purchased together.<br>
 
-### Association Analysis
+## Association Analysis
 
 Association Analysis looks for relationships in large datasets. These relationships can take 2 forms: frequent item sets or association rules.
 Frequent item sets are a collection of items that frequently occur together. Association rules suggest that a strong relationship exists between two items
@@ -222,7 +222,7 @@ For example, top customers who buy frequently and with high ticket values in RFM
 'Ceremonial Uji Matcha Powder'.<br>
 > ![RFM segment](https://github.com/JohnTan38/Best-README/blob/master/images/RFM_quartile.png)<br>
 
-### Association Rule +  RFM - Opportunities for targeted cross-selling
+## Association Rule +  RFM - Opportunities for targeted cross-selling
 > ![Association and RFM](https://github.com/JohnTan38/Best-README/blob/master/images/Top_RFM_segment.png)
 
 > Customers' RFM segments and closely associated products provide opportuniites for targeted cross selling . Customers of RFM segment '444' who bought 'Awakening Matcha Whisk Set' could have 'Matcha Starter Kit' recommended.<br><br>
@@ -234,8 +234,14 @@ For example, top customers who buy frequently and with high ticket values in RFM
 
 > ![Matcha Starter kit sales](https://github.com/JohnTan38/Best-README/blob/master/images/MatchaStarterKit_Sales.png)
 > Matcha Starter Kit enjoys high support and lift. Sales campaign to smooth out sales trend during 2nd and 3rd quarters.
-> Gross profit would be increased with a successful campaign. 
+> Gross profit would be increased with a successful campaign.<br>
 
+## Scenarion Analysis - Bundle recommendations - 
+> ![Cross Sell High Value](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_HighValue.PNG)<br>
+> Potential uplift of **35% gross sales of Awakening Matcha Whisk Set**.
+
+> ![Cross Sell Medium Value](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_MedValue.PNG)<br>
+> Potential uplift of **18% gross sales of Barista Uji Matcha Powder**.
 
 ### Pros and Cons of Apriori Algorithm
     Easy to understand
