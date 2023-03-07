@@ -16,10 +16,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -73,7 +74,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# Craft Tea Fox - Craft Matcha made better
 
 > ![Product Screen Shot](https://github.com/JohnTan38/Best-README/blob/master/images/CraftTeaFox.png)
 
@@ -236,7 +237,7 @@ For example, top customers who buy frequently and with high ticket values in RFM
 > Matcha Starter Kit enjoys high support and lift. Sales campaign to smooth out sales trend during 2nd and 3rd quarters.
 > Gross profit would be increased with a successful campaign.<br>
 
-## Scenarion Analysis - Bundle recommendations - 
+## Scenario Analysis - Bundle recommendations - 
 > ![Cross Sell High Value](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_HighValue.PNG)<br>
 > Potential uplift of **35% gross sales of Awakening Matcha Whisk Set**.
 
@@ -339,7 +340,7 @@ Project Link: [https://github.com/JohnTan38/Best-README](https://github.com/John
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/john-tan-714b0937/
 [product-screenshot]: images/screenshot.png
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://python.org/
