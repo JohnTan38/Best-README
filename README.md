@@ -238,10 +238,13 @@ For example, top customers who buy frequently and with high ticket values in RFM
 > Gross profit would be increased with a successful campaign.<br>
 
 ## Scenario Analysis - Bundle recommendations - 
-> ![Cross Sell High Value](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_HighValue.PNG)<br>
+> ![Cross Sell High Value_2](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_HighValue_2.PNG)<br>
 > Potential uplift of **35% gross sales of Awakening Matcha Whisk Set**.
 
-> ![Cross Sell Medium Value](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_MedValue.PNG)<br>
+> ![Cross Sell High Value_1](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_HighValue_1.PNG)<br>
+> Potential uplift of **52% gross sales of Ceremonial Uji Matcha Powder**.
+
+> ![Cross Sell Medium Value_1](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_MedValue_1.PNG)<br>
 > Potential uplift of **18% gross sales of Barista Uji Matcha Powder**.
 
 ### Pros and Cons of Apriori Algorithm
