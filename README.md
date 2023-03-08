@@ -36,9 +36,12 @@
 <img src='https://img.shields.io/badge/-MIT-blue?style=for-the-badge'>
 </a>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-</div>
+<a href='https://www.linkedin.com/in/john-tan-714b0937/'>
 
+<img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'>
+</a>
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -227,6 +230,7 @@ Frequent item sets are a collection of items that frequently occur together. Ass
 > suggested to them before checkout.
 > Different permutations and threholds of Support and Lift return differennt association rules.<br>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## RFM Analysis
 
@@ -251,6 +255,8 @@ For example, top customers who buy frequently and with high ticket values in RFM
 > ![Matcha Starter kit sales](https://github.com/JohnTan38/Best-README/blob/master/images/MatchaStarterKit_Sales.png)
 > Matcha Starter Kit enjoys high support and lift. Sales campaign to smooth out sales trend during 2nd and 3rd quarters.
 > Gross profit would be increased with a successful campaign.<br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Scenario Analysis - Bundle recommendations - 
 > ![Cross Sell High Value_2](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_HighValue_2.PNG)<br>
@@ -277,12 +283,13 @@ _For more examples, please refer to the [Documentation][Docs-url]
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Fine tune threshold values for Support and Lift
+- [ ] Data collection - customers' demographic profile
+- [ ] Sesarch Engine Optimization (SEO) & click through rates (CTR)
+- [ ] Google Analytics 360 - data driven attribution
+- [x] Fine tune threshold values for Support and Lift
 - [ ] Multi-language Support
     - [ ] Chinese
-    - [ ] Spanish
+    - [ ] Bahasa Indeonesia
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -331,6 +338,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Project Link: [https://github.com/JohnTan38/Best-README](https://github.com/JohnTan38/Best-README)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[![John's GitHub stats](https://github-readme-stats.vercel.app/api?username=johntan38&theme=dracula&show_icons=true)](https://github.com/johntan38/github-readme-stats)
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
