@@ -17,12 +17,27 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+<div align='center'>
+  
+<a href='https://github.com/chroline/well_app/releases'>
+  
+<img src='https://img.shields.io/github/v/release/chroline/well_app?color=%23FDD835&label=version&style=for-the-badge'>
+  
+</a>
+  
+<a href='https://github.com/chroline/well_app/blob/main/LICENSE'>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
+<img src='https://img.shields.io/github/license/chroline/well_app?style=for-the-badge'>
+  
+</a>
+  
+<a href='https://github.com/chroline/well_app/blob/main/LICENSE'>
+
+<img src='https://img.shields.io/badge/-MIT-blue?style=for-the-badge'>
+</a>
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
+</div>
 
 
 <!-- PROJECT LOGO -->
