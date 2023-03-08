@@ -83,7 +83,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#associationrules">Association Rules</a></li>
+    <li><a href="#associationrules">AssociationRules</a></li>
     <li><a href="#RFManalysis">RFM Analysis</a></li>
     <li><a href="#bundlerecommendations">Scenario Analysis - Bundle recommendations</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -91,8 +91,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#associationrules">Association Rules</a></li>
+    
   </ol>
 </details>
 
@@ -213,7 +212,7 @@ Data Preprocessing and transformation - TransactionEncoder class from the MLXten
 Market Basket Analysis is a data mining tool used by retailers to increase sales by better understanding customer purchasing patterns. 
 Purchase history and items bought together are analyzed to reveal product groupings, as well as products that are likely to e purchased together.<br>
 
-<!-- ASSOCIATION RULES -->
+<!-- ASSOCIATIONRULES -->
 ## Association Rules
 
 Association Analysis looks for relationships in large datasets. These relationships can take 2 forms: frequent item sets or association rules.
