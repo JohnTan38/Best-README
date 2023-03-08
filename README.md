@@ -83,11 +83,16 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#associationrules">Association Rules</a></li>
+    <li><a href="#RFManalysis">RFM Analysis</a></li>
+    <li><a href="#bundlerecommendations">Scenario Analysis - Bundle recommendations</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#associationrules">Association Rules</a></li>
   </ol>
 </details>
 
@@ -208,7 +213,8 @@ Data Preprocessing and transformation - TransactionEncoder class from the MLXten
 Market Basket Analysis is a data mining tool used by retailers to increase sales by better understanding customer purchasing patterns. 
 Purchase history and items bought together are analyzed to reveal product groupings, as well as products that are likely to e purchased together.<br>
 
-## Association Analysis
+<!-- ASSOCIATION RULES -->
+## Association Rules
 
 Association Analysis looks for relationships in large datasets. These relationships can take 2 forms: frequent item sets or association rules.
 Frequent item sets are a collection of items that frequently occur together. Association rules suggest that a strong relationship exists between two items
@@ -232,6 +238,7 @@ Frequent item sets are a collection of items that frequently occur together. Ass
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- RFM ANALYSIS -->
 ## RFM Analysis
 
 Customers recency, frequency & monetary (transaction values) are analyzed and K Means clustering used to group customers into distinct segments<br>.
@@ -258,7 +265,8 @@ For example, top customers who buy frequently and with high ticket values in RFM
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Scenario Analysis - Bundle recommendations - 
+<!-- SCENARIO ANALYSIS - BUNDLE RECOMMENDATIONS -->
+## Scenario Analysis - Bundle recommendations
 > ![Cross Sell High Value_2](https://github.com/JohnTan38/Best-README/blob/master/images/CrossSell_HighValue_2.PNG)<br>
 > Potential uplift of **35% gross sales of Awakening Matcha Whisk Set**.
 
