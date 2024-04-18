@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EM Chem</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="text-center py-4">
+    <h1 class="text-3xl font-bold text-blue-900 font-rounded">EM Chem Onshore Orders</h1>
+  </header>
+  <main class="container mx-auto px-4">
+    <div class="flex items-center justify-center mb-4">
+      <button id="split" class="px-4 py-2 font-medium rounded-lg text-white bg-blue-500 hover:bg-blue-700">Split PDF</button>
+      <button id="rename" class="px-4 py-2 ml-4 font-medium rounded-lg text-white bg-green-500 hover:bg-green-700">Rename PDF</button>
+    </div>
+    <p class="text-xl font-medium">Run Python code</p>
+    <button id="email" class="px-4 py-2 mt-4 font-medium rounded-lg text-white bg-purple-400 hover:bg-purple-500">Send Email</button>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('split').addEventListener('click', function() {
+            fetch('/splitPDF')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('result').textContent = data;
+                });
+        });
+
+        document.getElementById('rename').addEventListener('click', function() {
+            fetch('/renamePDF')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('result').textContent = data;
+                });
+        });
+
+        document.getElementById('email').addEventListener('click', function() {
+            fetch('/email')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('result').textContent = data;
+                });
+        });
+    </script>
+</body>
+</html>
